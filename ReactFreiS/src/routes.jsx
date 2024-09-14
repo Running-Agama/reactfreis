@@ -22,6 +22,7 @@ function Navigation() {
                 <Route path='/e05' element={<E05/>}/>
                 <Route path='/e06' element={<E06/>}/>
                 <Route path='/e10' element={<E10 />} />
+                <Route path='/e11'  element={<E11/>} />
             </Routes>
         </BrowserRouter>
     );

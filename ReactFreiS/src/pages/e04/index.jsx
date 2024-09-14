@@ -4,7 +4,7 @@ import { useState } from 'react'
 import Cabecalho from '../../components/Cabecalho';
 
 export default function E04() {
-    const [nomeLivro, setNomeLivro] = useState('')
+    const [nomeLivro, setNomeLivro] = useState('Livro')
     const [paginasLivro,setPaginasLivro] = useState(0)
     const [tempoLeitura, setTempoLeitura] = useState(0)
     const [valorTotal, setValorTotal] = useState(0)
@@ -31,7 +31,7 @@ export default function E04() {
                     <div className='campos'>
                         <div className='campo'>
                             <label>Nome do livro</label>
-                            <input placeholder='0' onChange={e => setNomeLivro(e.target.value)} />
+                            <input placeholder='Nome' onChange={e => setNomeLivro(e.target.value)} />
 
                             <label>Total de páginas do livro</label>
                             <input placeholder='0' onChange={e => setPaginasLivro(e.target.value)} />

@@ -15,12 +15,10 @@ export default function Inicio() {
                     <Card cor='laranja' link='/e01' titulo='Cupom de Desconto' subtitulo='Exercício 1'/>
                     <Card cor='roxo' link='/e02' titulo='Converter kg/gramas' subtitulo='Exercício 2'/>
                     <Card cor='laranja' link='/e03'  titulo='Valor total por quantidade' subtitulo='Exercício 3'/>
-                    <Card cor='laranja' link='/e04'  titulo='Valor total por quantidade' subtitulo='Exercício 4'/>
+                    <Card cor='laranja' link='/e04'  titulo='Leitura de livro' subtitulo='Exercício 4'/>
                     <Card cor='roxo'    link='/e05'  titulo='Media de notas' subtitulo='Exercicio 5'/>
-                    <Card cor='roxo'    link='/e06'  titulo='Media de notas' subtitulo='Exercicio 6'/>
-                    <Card cor='roxo'    link='/e10'  titulo='Media de notas' subtitulo='Exercicio 11'/>
-
-
+                    <Card cor='roxo'    link='/e06'  titulo='Salario liquido' subtitulo='Exercicio 6'/>
+                    <Card cor='roxo'    link='/e10'  titulo='Calculo IMC com histórico' subtitulo='Exercicio 11'/>
 
                 </div>
             </div>
