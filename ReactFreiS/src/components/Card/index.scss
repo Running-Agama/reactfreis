@@ -1,0 +1,44 @@
+@mixin corRetangulo($color){
+    background-color: $color;
+}
+
+.card {
+    width: 215px;
+    height: 160px;
+    border-radius: 12px;
+
+    text-align: center;
+    align-content: center;
+    background-color: white;
+    text-decoration: none;
+
+    .retangulo {
+        margin-left: 50%;
+        transform: translateX(-50%);
+        height: 60px;
+        width: 60px;
+        border-radius: 12px;
+    }
+
+    &.laranja .retangulo {
+        background-color: orange;
+    }
+
+    &.roxo .retangulo{
+        background-color: purple;
+    }
+
+    .titulo {
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 10px;
+        color: #383131;
+    }
+
+    .subtitulo {
+        font-size: 16px;
+        font-weight: lighter;
+        margin-top: 10px;
+        color: #383131;
+    }
+}

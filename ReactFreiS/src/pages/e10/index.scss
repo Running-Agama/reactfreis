@@ -1,0 +1,156 @@
+.pagina-e10 {
+    font-family: 'Roboto', 'Arial';
+
+        .titulo {
+            display: flex;
+            align-items: center;
+
+            h1 {
+                color: white;
+                margin-left: 10px;
+            }
+        }
+
+        .links {
+            display: flex;
+            align-items: center;
+
+            .link {
+                margin-left: 10px;
+                text-decoration: none;
+                color: white;
+            }
+    }
+
+    .exercicio {
+        padding: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .titulo {
+            .texto {
+                display: flex;
+                align-items: center;
+                margin-bottom: 10px;
+
+                h2 {
+                    margin-left: 10px;
+                }
+            }
+
+            .faixa {
+                background-color: #B3FF37;
+                height: 4px;
+            }
+        }
+
+        .descricao {
+            background-color: white;
+            height: 215px;
+            border-radius: 12px;
+            padding: 20px;
+            margin-top: 20px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .coluna-resultados{
+
+            .campo-resultados{
+
+                margin-left: 20px;
+                padding: 7px 20px;
+    
+                
+                
+                .card-resultado{  
+    
+                    margin-top: 5px;
+                    text-align: center;
+                    
+                    justify-content: space-around;
+                    align-items: center; 
+                    display: flex;
+                    width:450px;
+                    .resultado{
+                        background-color: white;
+                        border-radius: 15px;
+                        padding: 25px 10px;
+                        color: black;
+                    }
+                        
+                }
+    
+                .botao-remover{
+                    
+                    margin-top: 6px;
+                    border: none;
+                }
+        }
+        
+
+        }
+        .formulario {
+            
+            margin: 20%;
+            text-align: end;
+            margin-top: 40px;
+            display: flex;
+
+
+            
+            .campos {
+                height: 280px;
+                padding: 20px;
+
+                
+                text-align: center;
+                align-content: center;
+
+                background-color: white;
+                border-radius: 12px;
+                box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+
+
+                .linha-campos {
+                    margin-bottom: 20px;
+                    display: flex;
+                    flex-direction: row;
+                    
+                    
+
+                    label {
+                        font-size: 18px;
+                        font-weight: bold;
+                    }
+
+                    input {
+                        width: 60%;
+                        margin-top: 8px;
+                        border-radius: 8px;
+                        border-style: none;
+                        border: 2px solid #c3c3c3;
+                        font-size: 24px;
+                    }
+                }
+
+                .executar {
+                    text-decoration: none;
+                    float: right;
+                    padding: 10px 20px;
+                    background-color: #6278F7;
+                    color: white;
+                    border-radius: 8px;
+                }
+            }
+
+            .resultado {
+                margin-top: 10px;
+            }
+        }
+    }
+}
